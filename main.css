@@ -1,0 +1,61 @@
+.jumbotron {
+    background-image: url("img/jumbo_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    height: 100vh;
+    margin-top: -56px;
+    padding-top: 25vh;
+    text-align: center;
+}
+
+#emailbox {
+    width: 300px;
+}
+
+#appSummary {
+    text-align: center;
+    padding: 50px 0;
+}
+.card-img-top {
+    height: 231.66px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #667386;
+    
+}
+
+.store_icon {
+    width: 213px;
+    height: 73px;
+}
+
+/* Set width to make card deck cards 100% width at wider breakpoint then set by BootStrap */
+@media (max-width: 991px) { 
+	
+	.card-deck-wrapper {margin-right:0;margin-left:0;}
+	.card-deck {
+	    display: block;
+	    width: 100%;
+	    margin-bottom: .75rem;
+	    table-layout: fixed;
+	    border-spacing: 1.25rem 0;
+        }
+	.card-deck .card {
+	    display: block;
+	    margin-bottom: .75rem;
+	    vertical-align: top;
+	    }
+           .card-img-top {
+            height: 348px;
+       
+        }
+
+}
